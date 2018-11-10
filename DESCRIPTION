@@ -1,4 +1,4 @@
-Package: babest
+Package: babettes
 Title: Experimental babette features
 Version: 0.1
 Author: Richel J.C. Bilderbeek <richel@richelbilderbeek.nl>
@@ -6,16 +6,17 @@ Maintainer: Richel J.C. Bilderbeek <richel@richelbilderbeek.nl>
 Description: 'babette' (<https://github.com/richelbilderbeek/babette>) 
   is an R package to call 'BEAST2' (<http://www.beast2.org>) 
   from R. 'BEAST2' is a widely used
-  Bayesian phylogenetic tool, that uses DNA/RNA/protein data
-  and many model priors to create a posterior of jointly estimated.
-  Because 'BEAST2' has many options, 'babest' is the package where
-  new experimental features are first tested. 
+  Bayesian phylogenetic tool, that uses one or more 
+  DNA/RNA/protein alignment and one or more site, clock and/or tree
+  models. 'babettes' is the package where
+  multiple alignments, site models, clock models and/or tree models 
+  are first tested. 
 License: GPL-3 | file LICENSE
 LazyData: true
 RoxygenNote: 6.1.0
 VignetteBuilder: knitr
-URL: https://github.com/richelbilderbeek/babest
-BugReports: https://github.com/richelbilderbeek/babest/issues
+URL: https://github.com/richelbilderbeek/babettes
+BugReports: https://github.com/richelbilderbeek/babettes/issues
 Imports:
     babette,
     beautier,
