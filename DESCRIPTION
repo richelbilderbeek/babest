@@ -3,7 +3,7 @@ Title: Experimental babette features
 Version: 0.1
 Author: Richel J.C. Bilderbeek <richel@richelbilderbeek.nl>
 Maintainer: Richel J.C. Bilderbeek <richel@richelbilderbeek.nl>
-Description: 'babette' (<https://github.com/richelbilderbeek/babette>) 
+Description: 'babette' (<https://github.com/ropensci/babette>) 
   is an R package to call 'BEAST2' (<http://www.beast2.org>) 
   from R. 'BEAST2' is a widely used
   Bayesian phylogenetic tool, that uses one or more 
@@ -15,8 +15,8 @@ License: GPL-3 | file LICENSE
 LazyData: true
 RoxygenNote: 6.1.0
 VignetteBuilder: knitr
-URL: https://github.com/richelbilderbeek/babettes
-BugReports: https://github.com/richelbilderbeek/babettes/issues
+URL: https://github.com/ropensci/babettes
+BugReports: https://github.com/ropensci/babettes/issues
 Imports:
     babette,
     beautier,
